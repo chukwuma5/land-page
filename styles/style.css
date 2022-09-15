@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+.container{
+    width: min(1400px, 100%);
+    margin: 0 auto;
+}
+html{
+    font-size: 1rem;
+}
+nav,header{
+    width: 100%;
+    font-size: 1em;
+    padding: 0 0.25em;
+}
+header{
+    padding: 1em 0;
+}
+h1{
+    display: inline-block;
+    width: 40%;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight:  normal;
+}
+.right-align{
+    font-size: 1rem;
+    float: right;
+    width: 30%;
+    text-align: end;
+    padding: 0.25em 0;
+}
+.right-align>li{
+    display: inline-block;
+}
+.right-align>li a{
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0 0.20em;
+    text-decoration: overline #01C9FA;
+    color: #01C9FA;
+    font-weight: 100;
+   
+}
+.section-one{
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.5em 0;
+    background: #63FFAA;
+}
+.wrapper{
+    text-align: center;
+}
+.section-one>.wrapper img{
+    width: min(800px, 90%);
+} 
+h3,[rel=sub-topic],.section-2{
+    color: white;
+    font-size: .9em;
+    background: #ff0101;
+    padding: 0.4em 0 0.4em 0.25em;
+}
+.right-align-2,.right-align-4{
+    border: none;
+    border-bottom: 1px solid #E0D6D5;
+    float: left;
+    width: 70%;
+    margin: 2em 0;
+    padding: 1em 1em;
+}
+.right-align-3{
+    float: left;
+    width: min(200px, 30%);
+    margin-left: 10px;
+    margin: 2em 0;
+    padding: 0.25em 0.25em 1.5em;
+    background: #ff8d01;
+}
+.right{
+margin: 1em 0 0 ;
+}
+.right>li{
+    text-align: start;
+    margin: 0.25em 0 0;
+    font-size: 0.8em;
+}
+.right>li a{
+    display: inline-block;
+    margin: 0 1em;
+    color: #040100;
+}
+.section-three{
+    clear: both;
+    margin: 2em 0;
+    padding: 1em 1em;
+}
+footer{
+    text-align: end;
+}
+em{
+    display: block;
+    font-size: 0.5em;
+    color: #767676;
+    font-weight: 100;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+    margin: 0.75em 0;
+}
+@media(max-width:700px){
+.right-align-2,.right-align-4 {
+        width: 100%;
+        margin: 0 0;
+    }
+.right-align-3 {
+  width: min(300px, 50%);
+  margin-left: 0.50em;
+}
+ }

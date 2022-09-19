@@ -25,7 +25,7 @@ THIS FILE IS FOR THE PRACTISE OF HTML(DEEPER)
 -STRUCTURES OF DIFFERENT ELEMENTS, MOSTLY BLOCK AND INLINE ELEMENTS.
 -PRACTISED THE USE OF IMAGES WITH THE RIGHT DESCRIPTION AND LAYOUT.
 
-<img src="./img/wd-1-down.png">
+<img src="./images/wd-1-down.png">
 
 THIS FILE IS FOR THE PRACTISE OF CSS
 
@@ -36,14 +36,14 @@ THIS FILE IS FOR THE PRACTISE OF CSS
 -IT'S ALSO RESPONSVE......
 
 ##Larger screen sizes##
-<img src="./img/wd-5.png">
+<img src="./images/wd-5.png">
 
-<img src="./img/wd-4.png">
+<img src="./images/wd-4.png">
 
 ##smaller screen sizes##
-<img src="./img/wd-1.png">
+<img src="./images/wd-1.png">
 
-<img src="./img/wd-2.png">
+<img src="./images/wd-2.png">
 
 ## Built with
 
